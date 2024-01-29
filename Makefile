@@ -1,5 +1,6 @@
 OUTPUT_FILE = document.pdf
 
+all: $(OUTPUT_FILE)
 
 $(OUTPUT_FILE): build/main.pdf
 	cp $< $@
